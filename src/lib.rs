@@ -638,6 +638,11 @@ names! {
     MPEG, "mpeg";
     MP4, "mp4";
     OGG, "ogg";
+    AAC, "aac";
+    FLAC, "flac";
+
+    // video/
+    MOV, "quicktime";
 
     // parameters
     CHARSET, "charset";
@@ -764,6 +769,14 @@ mimes! {
     IMAGE_SVG, "image/svg+xml", 5, Some(9);
     IMAGE_WEBP, "image/webp", 5;
     IMAGE_AVIF, "image/avif", 5;
+
+    VIDEO_MOV, "video/quicktime", 5;
+    VIDEO_MPEG, "video/mpeg", 5;
+    VIDEO_MP4, "video/mp4", 5;
+
+    AUDIO_MPEG, "audio/mpeg", 5;
+    AUDIO_AAC, "audio/aac", 5;
+    AUDIO_FLAC, "audio/flac", 5;
 
     FONT_WOFF, "font/woff", 4;
     FONT_WOFF2, "font/woff2", 4;
